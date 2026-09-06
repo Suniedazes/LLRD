@@ -1,0 +1,4 @@
+import type {Product} from "@/content/products";
+import {Card,Badge,Button} from "./ui";
+import {platformActions} from "@/lib/platforms";
+export function ProductCard({product}:{product:Product}){return <Card><p className="eyebrow">{product.category}</p><h3>{product.name}</h3><p>{product.shortDescription}</p><div className="badges">{platformActions(product).filter(a=>a.status!=="NOT_OFFERED").map(a=><Badge key={a.channel}>{a.channel==="web"?"Web":a.channel==="ios"?"iOS":"Android"} · {a.status.replaceAll("_"," ").toLowerCase()}</Badge>)}</div><Button href={"/products/"+product.slug} secondary>Explore {product.name}</Button></Card>;}
