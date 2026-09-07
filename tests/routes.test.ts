@@ -19,7 +19,7 @@ test("product, campaign and trust templates render fixture records without publi
  const pm=await productMetadata({params:Promise.resolve({slug:product.slug})});assert.equal(pm.title,product.name);assert.equal(pm.alternates?.canonical,"/products/fixture-one");
  const cm=await campaignMetadata({params:Promise.resolve({slug:campaign.slug})});assert.equal(cm.title,campaign.headline);
  for(const section of ["privacy","security","legal","support","delete-account"]){const html=renderToStaticMarkup(await ProductTrust({params:Promise.resolve({slug:product.slug,section})}));assert.match(html,/forthcoming/);}
- assert(sitemap().some(x=>x.url.endsWith("/campaigns/fixture-campaign")));
+ assert((await sitemap()).some(x=>x.url.endsWith("/campaigns/fixture-campaign")));
  const native=renderToStaticMarkup(createElement(ProductPlatformCTA,{product:{...product,iosStatus:"BETA",appleAppStoreUrl:"https://apps.apple.com/app/test",androidStatus:"AVAILABLE",googlePlayUrl:"https://play.google.com/store/apps/details?id=test"}}));
  assert.match(native,/Download on the App Store/);assert.match(native,/Get it on Google Play/);assert.match(native,/Open on web/);
  }finally{(products as Product[]).length=0;(campaigns as Campaign[]).length=0;}
