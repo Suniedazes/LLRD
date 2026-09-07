@@ -342,8 +342,8 @@
           "title": "18. PRIVACY REQUESTS",
           "paragraphs": [
             "Requests may be submitted through:",
-            "Privacy Request Form: not yet available.",
-            "Email: privacy@llrd.ai",
+            "Privacy Request Center: /privacy-requests. Online delivery is pending configuration; requests can be addressed to contactus@llrd.ai.",
+            "Email: contactus@llrd.ai",
             "We may need to authenticate your identity.",
             "We may also need to verify that an authorized agent has authority to act for another individual.",
             "We will respond within time periods required by applicable law."
@@ -353,7 +353,7 @@
           "title": "19. APPEALS",
           "paragraphs": [
             "Where applicable privacy law provides a right to appeal a denied privacy request, users may submit an appeal through:",
-            "Online appeal channel: not yet available.",
+            "Privacy Appeal: select this category in the Privacy Request Center or email contactus@llrd.ai with the subject Privacy Appeal.",
             "The appeal should identify the original request and explain why reconsideration is requested."
           ]
         },
@@ -371,6 +371,7 @@
         {
           "title": "21. COOKIES",
           "paragraphs": [
+            "Current corporate website configuration: no advertising cookies, pixels, behavioral advertising or cross-site tracking are installed. A first-party sessionStorage value (llrd.discovery.seen.v1) remembers whether the discovery prompt was shown during this tab session. No operational analytics provider is configured.",
             "LLRD websites may use cookies, local storage, pixels, SDKs, and similar technologies.",
             "These technologies may support:",
             "Strictly Necessary Functions",
@@ -580,7 +581,8 @@
           "paragraphs": [
             "LLRD products may use AI services provided by third parties.",
             "When third-party models are used, information may be transmitted to those providers subject to applicable contracts, technical controls, and privacy requirements.",
-            "LLRD will seek to select and configure providers consistent with the sensitivity of the relevant information."
+            "LLRD will seek to select and configure providers consistent with the sensitivity of the relevant information.",
+            "Corporate website AI is separate from product AI. Groq is the selected initial provider for future website testing; live requests are not enabled until server configuration is complete. When enabled, a submitted question and approved public website facts are sent to the configured provider. Do not include personal or sensitive information."
           ]
         },
         {
@@ -776,7 +778,7 @@
           "title": "53. REPORTING A VULNERABILITY",
           "paragraphs": [
             "Security researchers who believe they have identified a vulnerability should contact:",
-            "privacy@llrd.ai",
+            "contactus@llrd.ai",
             "Please include:",
             "affected service;",
             "description;",
@@ -852,8 +854,9 @@
           "paragraphs": [
             "LLRD respects intellectual-property rights. Persons who believe material hosted by LLRD infringes their copyright may submit a notice to LLRD's designated copyright contact:",
             "Copyright/DMCA Agent: Copyright Agent, LLRD LLC",
-            "Email: privacy@llrd.ai",
+            "Email: contactus@llrd.ai",
             "Address: 1109 Woodland St, Unit 60552, Nashville, TN 37206, United States",
+            "Telephone: 615-397-8434",
             "A copyright notice should include the information required by applicable law, including sufficient information to identify the copyrighted work, the allegedly infringing material and its location, the complaining party's contact information, a statement of good-faith belief, a statement regarding the accuracy and authority of the complaining party, and an appropriate physical or electronic signature.",
             "Where LLRD qualifies for and elects to rely upon applicable Digital Millennium Copyright Act safe-harbor provisions, LLRD will maintain the required designated-agent information with the U.S. Copyright Office and make the required contact information publicly available.",
             "LLRD may remove or restrict access to material in response to a valid notice and may request additional information necessary to evaluate a complaint. Where applicable, users may have rights to submit a counter-notification under the DMCA."
@@ -884,7 +887,7 @@
           "title": "61. ACCESSIBILITY FEEDBACK",
           "paragraphs": [
             "If you experience difficulty using an LLRD digital service, contact:",
-            "privacy@llrd.ai",
+            "contactus@llrd.ai",
             "Please identify:",
             "the page or feature;",
             "the difficulty encountered;",
@@ -1048,7 +1051,7 @@
           "title": "75. DISPUTES",
           "paragraphs": [
             "LLRD encourages users to contact us before initiating formal proceedings so that concerns can potentially be resolved informally.",
-            "Legal Contact: privacy@llrd.ai",
+            "Legal Contact: contactus@llrd.ai",
             "Nothing in this provision prevents either party from exercising rights that cannot legally be waived."
           ]
         },
@@ -1153,15 +1156,16 @@
         {
           "title": "81. GENERAL CONTACT",
           "paragraphs": [
-            "LLRD.AI LLC",
+            "LLRD LLC",
             "A Tennessee LLC",
-            "Principal address: not supplied.",
+            "Telephone: 615-397-8434",
+            "1109 Woodland St, Unit 60552, Nashville, TN 37206, United States",
             "United States",
             "General: contactus@llrd.ai",
-            "Privacy: privacy@llrd.ai",
-            "Security: privacy@llrd.ai",
-            "Legal/IP: privacy@llrd.ai",
-            "Accessibility: privacy@llrd.ai"
+            "Privacy: contactus@llrd.ai",
+            "Security: contactus@llrd.ai",
+            "Legal/IP: contactus@llrd.ai",
+            "Accessibility: contactus@llrd.ai"
           ]
         }
       ]
@@ -1172,6 +1176,6 @@
     "They should not be interpreted as stating that every possible law identified or contemplated by this framework currently applies to LLRD.",
     "Legal obligations depend upon factors including LLRD's size, activities, products, users, jurisdictions, contractual relationships, categories of information processed, and applicable statutory thresholds.",
     "Product-specific terms, privacy notices, contracts, authorizations, and consent mechanisms may supplement this Legal Center.",
-    "© 2026 LLRD.AI LLC. All rights reserved."
+    "© 2026 LLRD LLC. All rights reserved."
   ]
 }

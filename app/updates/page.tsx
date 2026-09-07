@@ -1,4 +1,4 @@
-import {publishedPosts} from "@/lib/post-store";
+import {publishedPosts} from "@/lib/published-posts";
 import {pageMetadata} from "@/lib/seo";
 import {Card,TrustLink} from "@/components/ui";
 export const dynamic="force-dynamic";
