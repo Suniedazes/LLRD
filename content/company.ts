@@ -1,5 +1,5 @@
 export const company = {
- name: "LLRD Technologies", domain: "https://llrd.ai",
+ name: "LLRD Technologies", legalName: "LLRD.AI LLC", publicBrand: "LLRD LLC", jurisdiction: "Tennessee, USA", businessEmail: "contactus@llrd.ai", domain: "https://llrd.ai",
  tagline: "Technology that connects what matters.",
  intro: "Thoughtful technology. Meaningful connections.",
  description: "We build technology around people, opening possibilities and helping purposeful ideas become practical progress.",

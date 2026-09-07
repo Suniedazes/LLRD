@@ -13,3 +13,8 @@ export function platformActions(p:Product) {
  });
 }
 export function waitlistHref(p:Product) {return p.waitlistEnabled?safeHttps(p.waitlistUrl):undefined;}
+export function deviceChannelOrder(userAgent:string):Channel[]{
+ if(/Android/i.test(userAgent))return ["android","web","ios"];
+ if(/iPhone|iPad|iPod/i.test(userAgent))return ["ios","web","android"];
+ return ["web","ios","android"];
+}
