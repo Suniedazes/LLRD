@@ -1,3 +1,6 @@
+# LLRD
+LLRD AI website
+
 # LLRD Technologies website
 
 Independent Next.js App Router implementation. Local review only; not deployed.
